@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./images2/short.jpg" type="image/svg+xml">
+
+    <!-- import the CSS file in HTML -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Icon font link-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Laptop Store </title>
+</head>
+
+<body>
+
+    <!--Header Section Start -->
+    <section id="header" class="header">
+        <a href="#" class="logo"><i class="fas fa-shop"></i> Laptop-Store</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#category">Category</a>
+            <a href="#shop">Shop</a>
+
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+
+        </div>
+
+    </section>
+    <!-- header section ends -->
+
+    <!-- Home section starts -->
+    <section class="home" id="home">
+        <!-- 1-->
+        <div class="slide active"
+            style="background: url(./images2/logo.jpg) no-repeat; background-size: cover; background-position: center;">
+            <div class="content">
+                <span>Pick the perfect laptop</span>
+                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod recusandae repellendus</h3>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <!-- 2-->
+        <div class="slide"
+            style="background: url(./images2/logo2.jpg) no-repeat; background-size: cover; background-position: center;">
+            <div class="content">
+                <span>Exclusive laptop pairs</span>
+                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod recusandae </h3>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <!-- 3-->
+        <div class="slide"
+            style="background: url(./images2/lopgo3.jfif) no-repeat; background-size: cover; background-position: center;">
+            <div class="content">
+                <span>Smart & Intellegent</span>
+                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod recusandae </h3>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
+        <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+
+    </section>
+
+    <!--caregory section start-->
+    <section class="category" id="category">
+        <h1 class="heading">Product<span> Pramotion</span></h1>
+        <div class="box-container">
+            <a href="#" class="box">
+                <img src="./images2/promotion1.webp">
+                <h3>Product 1</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="./images2/promotion2.webp">
+                <h3>Product 2</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="./images2/promotion3.jfif">
+                <h3>Product 3</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="./images2/promotion4.jpg">
+                <h3>Product 4</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="./images2/promotion5.jfif">
+                <h3>Product 5</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="./images2/promotion6.jpg">
+                <h3>Product 6</h3>
+            </a>
+        </div>
+    </section>
+    <!-- category section end -->
+
+    <!-- pramotion section start-->
+    <section class="pramotion" id="pramotion">
+        <div class="box-container">
+            <div class="collection-card" style="background-image:url(./images2/coll2.jfif)">
+                <h1>Dell collection</h1>
+                <a href="#" class="btn">Explore More<i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="collection-card" style="background-image:url(./images2/coll3.jfif)">
+                <h1>Rog Collection</h1>
+                <a href="#" class="btn">Explore More<i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="collection-card" style="background-image:url(./images2/coll1.jfif)">
+                <h1>Hp Collection</h1>
+                <a href="#" class="btn">Explore More<i class="fas fa-arrow-right"></i></a>
+            </div>
+
+        </div>
+    </section>
+    <!-- pramotion section ends-->
+
+
+    <!-- shop section ends-->
+    <section class="shop" id="shop">
+        <h1 class="heading">Our<span> Shop</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="img">
+                    <img src="./images2/1.jfif">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>ASUS VIVO BOOK</h3>
+                    <div class="price">$700<span> $150.99</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./images2/2.jfif">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>HP </h3>
+                    <div class="price">$650<span> $150.99</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./images2/3.jpg">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>HP MINI</h3>
+                    <div class="price">$240<span> $150.99</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./images2/4.jfif">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>DELL INSPIRON 5000</h3>
+                    <div class="price">$500<span> $150.99</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./images2/5.jpeg">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>MAC BOOK</h3>
+                    <div class="price">$800<span> $150.99</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./images2/6.webp">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>HP PAVILION</h3>
+                    <div class="price">$480<span> $150.99</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./images2/7.jfif">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>DELL INSPIRON 3000</h3>
+                    <div class="price">$340<span> $150.99</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./images2/8.jpg">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>DELL </h3>
+                    <div class="price">$400<span> $150.99</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </section>
+    <!--Shop section ends-->
+
+    <!-- Services section starts-->
+    <section class="section services">
+        <div class="container">
+            <ul class="service-list">
+
+                <li class="services-item">
+                    <div class="service-card">
+
+                        <div class="card-icon">
+                            <img src="./images/service-1.png" alt="Service icon" width="53" height="28" loading="lazy">
+
+                        </div>
+
+                        <div>
+                            <h3 class="h4 card-title">Free Shipping</h3>
+                            <p class="card-text">All orders over <span>$150</span></p>
+                        </div>
+
+                    </div>
+                </li>
+                <li class="services-item">
+                    <div class="service-card">
+
+                        <div class="card-icon">
+                            <img src="./images/service-2.png" alt="Service icon" width="53" height="28" loading="lazy">
+
+                        </div>
+
+                        <div>
+                            <h3 class="h4 card-title">Quick Payment</h3>
+                            <p class="card-text">100% secure payment</p>
+                        </div>
+
+                    </div>
+                </li>
+                <li class="services-item">
+                    <div class="service-card">
+
+                        <div class="card-icon">
+                            <img src="./images/service-3.png" alt="Service icon" width="53" height="28" loading="lazy">
+
+                        </div>
+
+                        <div>
+                            <h3 class="h4 card-title">Free Returns</h3>
+                            <p class="card-text">Money back in working 7 days</p>
+                        </div>
+
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </section>
+    <!--Service section ends-->
+
+    <!--Post section starts-->
+    <section class="section insta-post">
+        <ul class="insta-post-list has-scrollbar">
+
+            <li class="insta-post-item">
+                <img src="./images2/crop1.jfif" class="insta-post-banner image-contain" alt="" width="100" height="100" loading="lazy">
+                <a href="#" class="insta-post-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="insta-post-item">
+                <img src="./images2/crop2.jfif" class="insta-post-banner image-contain" alt="" width="100" height="100" loading="lazy">
+                <a href="#" class="insta-post-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="insta-post-item">
+                <img src="./images2/crop3.jfif" class="insta-post-banner image-contain" alt="" width="100" height="100" loading="lazy">
+                <a href="#" class="insta-post-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="insta-post-item">
+                <img src="./images2/crop4.jfif" class="insta-post-banner image-contain" alt="" width="100" height="100" loading="lazy">
+                <a href="#" class="insta-post-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="insta-post-item">
+                <img src="./images2/crop5.png" class="insta-post-banner image-contain" alt="" width="100" height="100" loading="lazy">
+                <a href="#" class="insta-post-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="insta-post-item">
+                <img src="./images2/crop6.jpg" class="insta-post-banner image-contain" alt="" width="100" height="100" loading="lazy">
+                <a href="#" class="insta-post-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="insta-post-item">
+                <img src="./images2/crop7.jfif" class="insta-post-banner image-contain" alt="" width="100" height="100" loading="lazy">
+                <a href="#" class="insta-post-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="insta-post-item">
+                <img src="./images2/rop8.jfif" class="insta-post-banner image-contain" alt="" width="100" height="100" loading="lazy">
+                <a href="#" class="insta-post-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+
+        </ul>
+
+    </section>
+    <!--Post section ends-->
+
+    <!--Footer section starts-->
+
+    <section class="footer" id="contact">
+        <div class="logo">
+            <a href="#home">
+                <img src="./images2/laptop.jpeg" alt="logo" width="240" height="100">
+            </a>
+        </div>
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home" class="link"><i class="fas fa-angle-right"></i>Home</a>
+                <a href="#about" class="link"><i class="fas fa-angle-right"></i>about</a>
+                <a href="#shop" class="link"><i class="fas fa-angle-right"></i>shop</a>
+                <a href="#category" class="link"><i class="fas fa-angle-right"></i>category</a>
+            </div>
+            
+            <div class="box">
+                <h3>My Favorite</h3>
+                <a href="#" class="link"><i class="fas fa-angle-right"></i>My Favorite</a>
+                <a href="#" class="link"><i class="fas fa-angle-right"></i>My orders</a>
+                <a href="#" class="link"><i class="fas fa-angle-right"></i>My Wishlists</a>
+                <a href="#" class="link"><i class="fas fa-angle-right"></i>privacy policy</a>
+                
+            </div>
+            
+            <div class="box">
+                <h3>Contact Details</h3>
+                <a href="#" class="link"><i class="fas fa-phone"></i>+91 223-366-5588</a>
+                <a href="#" class="link"><i class="fas fa-phone"></i>+91-222-333-8855</a>
+                <a href="#" class="link"><i class="fas fa-envelope"></i>laptop@gmail.com</a>
+                <a href="#" class="link"><i class="fas fa-map"></i>Vadodara,India - 390018</a>
+                <div class="share">
+                    <a href="" class="fab fa-facebook-f"></a>
+                    <a href="" class="fab fa-twitter"></a>
+                    <a href="" class="fab fa-instagram"></a>
+                    <a href="" class="fab fa-youtube"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p>Subscribe for latest updates</p>
+                <form action="">
+                    <input class="email" type="email" placeholder="Email Address">
+                    <input class="btn" value="Subscribe" type="submit">
+                </form>
+            </div>
+            
+        </div>
+        <div class="credit">Designed by <span>Ishan Shah</span>|| all rights reserved.</div>
+        
+
+    </section>
+
+
+
+
+    <!--link of javascript file-->
+    <script src="app.js"></script>
+</body>
+
+</html>
